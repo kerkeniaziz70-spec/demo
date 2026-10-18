@@ -126,7 +126,6 @@ Contact humain : +216 71 000 000.`,
     if (demo) setInterval(() => { if (demoExpired()) endDemo(); }, 10000);
     initPanel();
     applyHeader();
-    $("reset").addEventListener("click", start);
     start();
   }
 
